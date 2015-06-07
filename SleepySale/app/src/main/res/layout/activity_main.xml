@@ -1,0 +1,114 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/iv"
+                android:padding="16dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@color/green"
+                android:scaleType="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:hint="Enter a title"
+                android:background="#00000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:background="@color/blue"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:text="Enter a category"
+                android:background="#00000000"
+                android:onClick="selectCategory"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:background="@color/blue"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:hint="Enter a price"
+                android:background="#00000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item Description"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:background="@color/blue"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:hint="Enter a description"
+                android:background="#00000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Information"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:background="@color/blue"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:hint="Enter contact information"
+                android:background="#00000000"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
